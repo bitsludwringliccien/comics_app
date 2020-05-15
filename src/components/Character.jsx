@@ -1,19 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './styles/character.scss';
 
-function Character() {
+function Character(props) {
+  const { name, image } = props;
   return (
     <div className="character">
-      <img
-        src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/3dman442.jpg"
-        alt="Avatar"
-        className="image"
-      />
+      <img src={image} alt="Avatar" className="image" />
       <div className="middle">
-        <div className="text">Ludwring Liccien</div>
+        <div className="text">{name}</div>
       </div>
     </div>
   );
 }
-
+Character.propTypes = {
+  name: PropTypes.string.isRequired,
+  url: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  biography: PropTypes.string,
+  powers: PropTypes.array,
+};
 export default Character;

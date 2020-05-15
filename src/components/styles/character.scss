@@ -32,17 +32,17 @@
   text-align: center;
 }
 
-.container:hover .image {
+.character:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.character:hover .middle {
   opacity: 1;
 }
 
 .text {
-  background-color: #0000003e;
+  background-color: #0000008d;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   padding: 8px 8px;
 }

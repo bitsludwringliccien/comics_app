@@ -11,10 +11,18 @@ function Home() {
       </div>
       <div className="home__container">
         <a href="http://">
-          <img src="../../public/marvel.png" alt="Marvel" />
+          <img
+            className="home_images"
+            src="../../public/marvel.png"
+            alt="Marvel"
+          />
         </a>
         <a href="http://">
-          <img src="../../public/dc.png" alt="Dc Comics" />
+          <img
+            className="home_images"
+            src="../../public/dc.png"
+            alt="Dc Comics"
+          />
         </a>
       </div>
       <Footer />
