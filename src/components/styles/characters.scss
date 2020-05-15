@@ -8,14 +8,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 20px;
 }
 
 .dc {
   display: flex;
-  width: 50%;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 20px;
 }
 
 .marvel > .character {
@@ -28,18 +30,9 @@
   border-radius: 25% 0 25% 0;
 }
 
-.title__marvel {
+.title {
   color: white;
-  font-size: 16px;
+  font-size: 32px;
   margin-top: -32px;
   position: absolute;
-  left: 3%;
-}
-
-.title__dc {
-  color: white;
-  font-size: 16px;
-  margin-top: -32px;
-  position: absolute;
-  right: 43%;
 }

@@ -3,14 +3,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Search from '../components/Search';
 import Characters from '../components/Characters';
+import Footer from '../components/Footer';
 function Dc() {
-  const show = true;
   return (
     <React.Fragment>
-      <Header title="Personajes" />
-      {show ? <Search /> : null}
-
-      <Characters estilo="dc" />
+      <Header />
+      <Search />
+      <Characters estilo="dc" tittle="Dc Comics" />
+      <Footer />
     </React.Fragment>
   );
 }

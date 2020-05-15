@@ -4,6 +4,7 @@ import './styles/app.scss';
 
 import Marvel from '../pages/Marvel';
 import Dc from '../pages/Dc';
+import Home from '../pages/Home';
 
 function App() {
   return (
