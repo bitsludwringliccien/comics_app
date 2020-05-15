@@ -1,31 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/home.scss';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+
 function Home() {
   return (
     <React.Fragment>
-      <Header />
       <div className="home__title">
         <h1>Haz click una Case de Comics</h1>
       </div>
       <div className="home__container">
-        <a href="http://">
+        <Link to="/marvel">
           <img
             className="home_images"
             src="../../public/marvel.png"
             alt="Marvel"
           />
-        </a>
-        <a href="http://">
+        </Link>
+        <Link to="/dc">
           <img
             className="home_images"
             src="../../public/dc.png"
             alt="Dc Comics"
           />
-        </a>
+        </Link>
       </div>
-      <Footer />
     </React.Fragment>
   );
 }

@@ -14,11 +14,11 @@
   backface-visibility: hidden;
 }
 
-.marvel > .character > img {
+.marvel > a > .character > img {
   border-radius: 0 25% 0 25%;
 }
 
-.dc > .character > img {
+.dc > a > .character > img {
   border-radius: 25% 0 25% 0;
 }
 .middle {
