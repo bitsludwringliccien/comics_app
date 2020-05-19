@@ -8,7 +8,7 @@
     "build": "rimraf dist && webpack --config ./webpack.config.js --mode production",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "server": "json-server --watch ./server/comics_characters.json"
+    "server": "json-server -p 3500 --watch ./server/comics_characters.json"
   },
   "keywords": [],
   "author": "Ludwring <ludwring.liccien@gmail.com> (http://www.ludwringliccien.com/)",

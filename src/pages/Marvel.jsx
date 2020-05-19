@@ -19,9 +19,7 @@ function Marvel() {
     let filtered = characters;
     if (query.length >= 3) {
       filtered = characters.filter((item) => {
-        return item.name.toUpperCase().includes(
-          query.toUpperCase() //.charAt(0).toUpperCase() + query.slice(1)
-        );
+        return item.name.toLowerCase().includes(query.toLowerCase());
       });
       setResult(filtered);
     }
